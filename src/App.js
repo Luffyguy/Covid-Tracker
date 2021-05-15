@@ -1,10 +1,13 @@
 import React from "react";
-import Covid from "./components/covid"
+import Covid from "./components/covid";
+import "./App.css";
 
 const App = () => {
-  return <>
+  return (
+    <>
       <Covid />
-    </>;
+    </>
+  );
 };
 
 export default App;
